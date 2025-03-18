@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <h3>I Wanna [MASTER 15]</h3>
+        <ImageGallery
+            title="5小節目"
+            comment="赤青と緑の交互
+            最後の緑同時だけ気を付ける"
+            image1="/images/15/I_Wanna_005_before.webp"
+            image2="/images/15/I_Wanna_005_after.webp"
+            />
+        <ImageGallery
+            title="87小節目"
+            comment="赤青と緑の交互
+            緑で終わってから赤の同時"
+            image1="/images/15/I_Wanna_087_before.webp"
+            image2="/images/15/I_Wanna_087_after.webp"
+            />
+    </div>
+</template>

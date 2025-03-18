@@ -1,0 +1,29 @@
+<template>
+    <div>
+        <h3>Don't Fight The Music [MASTER 14+]</h3>
+        <ImageGallery
+            title="91小節目"
+            comment="1回目は右手の青ロングから"
+            image1="/images/14+/Don't_Fight_The_Music_091_before.webp"
+            image2="/images/14+/Don't_Fight_The_Music_091_after.webp"
+            />
+        <ImageGallery
+            title="95小節目"
+            comment="2回目は左手の赤ロングから"
+            image1="/images/14+/Don't_Fight_The_Music_095_before.webp"
+            image2="/images/14+/Don't_Fight_The_Music_095_after.webp"
+            />
+        <ImageGallery
+            title="115小節目"
+            comment="両手で分業"
+            image1="/images/14+/Don't_Fight_The_Music_115_before.webp"
+            image2="/images/14+/Don't_Fight_The_Music_115_after.webp"
+            />
+        <ImageGallery
+            title="124小節目"
+            comment="同時から交互に変わるタイミングと右手が2個押しになるタイミングに注意"
+            image1="/images/14+/Don't_Fight_The_Music_124_before.webp"
+            image2="/images/14+/Don't_Fight_The_Music_124_after.webp"
+            />
+    </div>
+</template>
