@@ -3,13 +3,13 @@
         <h3>Don't Fight The Music [MASTER 14+]</h3>
         <ImageGallery
             title="91小節目"
-            comment="1回目は右手の青ロングから"
+            comment="1回目は右手の青から"
             image1="/images/14+/Don't_Fight_The_Music_091_before.webp"
             image2="/images/14+/Don't_Fight_The_Music_091_after.webp"
             />
         <ImageGallery
             title="95小節目"
-            comment="2回目は左手の赤ロングから"
+            comment="2回目は左手の赤から"
             image1="/images/14+/Don't_Fight_The_Music_095_before.webp"
             image2="/images/14+/Don't_Fight_The_Music_095_after.webp"
             />
