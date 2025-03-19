@@ -23,7 +23,7 @@ services:
       context: .
       dockerfile: nuxt_build/Dockerfile
     volumes:
-      - ./doc:/app/doc
+      - ./docs:/app/docs
 
   web:
     image: httpd:latest
@@ -31,7 +31,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./doc:/usr/local/apache2/htdocs
+      - ./docs:/usr/local/apache2/htdocs
     restart: unless-stopped
 volumes:
   node_modules:
