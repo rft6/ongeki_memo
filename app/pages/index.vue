@@ -59,5 +59,7 @@ body {
     text-decoration: none;
     color: blue;
     margin: 2px 0;
+    display: inline-block;
+    width: fit-content;
 }
 </style>
