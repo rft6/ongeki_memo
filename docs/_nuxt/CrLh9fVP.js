@@ -1,1 +1,0 @@
-import{_ as t}from"./DO-AD_ta.js";import{_,c as a,a as n,b as r,o as s}from"./BWwFXlrw.js";const c={};function m(i,e){const o=t;return s(),a("div",null,[e[0]||(e[0]=n("h3",null,"Ai C [MASTER 14+]",-1)),r(o,{title:"33小節目",comment:"切り替わりのタイミングに注意",image1:"/images/14+/Ai_C_033_before.webp",image2:"/images/14+/Ai_C_033_after.webp"})])}const p=_(c,[["render",m]]);export{p as default};
