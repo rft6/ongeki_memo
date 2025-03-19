@@ -17,6 +17,14 @@ services:
       - port=3000
       - CHOKIDAR_USEPOLLING=true
 
+  nuxt_build:
+    container_name: nuxt_build
+    build: 
+      context: .
+      dockerfile: nuxt_build/Dockerfile
+    volumes:
+      - ./doc:/app/doc
+
   web:
     image: httpd:latest
     container_name: apache_server
