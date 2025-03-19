@@ -31,7 +31,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./docs:/usr/local/apache2/htdocs
+      - ./docs:/usr/local/apache2/htdocs/ongeki_memo
     restart: unless-stopped
 volumes:
   node_modules:

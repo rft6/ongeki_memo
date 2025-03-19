@@ -6,13 +6,13 @@
       <div class="image-wrapper">
         <p class="image-title">元譜面</p>
         <div class="image-box">
-          <img :src="image1" alt="元譜面" class="image" />
+          <img :src="imageSrc1" alt="元譜面" class="image" />
         </div>
       </div>
       <div class="image-wrapper">
         <p class="image-title">組み替え後</p>
         <div class="image-box">
-          <img :src="image2" alt="組み替え後" class="image" />
+          <img :src="imageSrc2" alt="組み替え後" class="image" />
         </div>
       </div>
     </div>
@@ -20,12 +20,25 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   title: String,
   comment: String,
   image1: String,
   image2: String
 });
+// NuxtのbaseURLを取得
+const config = useRuntimeConfig();
+const baseURL = config.public.baseURL || "/";
+
+// スラッシュ重複を防ぐ処理
+const normalizePath = (path) => {
+  if (!path) return "";
+  return `${baseURL.replace(/\/$/, "")}/${path.replace(/^\//, "")}`;
+};
+
+// baseURLを適用した画像パスを作成
+const imageSrc1 = computed(() => normalizePath(props.image1));
+const imageSrc2 = computed(() => normalizePath(props.image2));
 </script>
 
 <style scoped>
