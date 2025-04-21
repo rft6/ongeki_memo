@@ -5,6 +5,7 @@
             <div class="level">15</div>
             <div class="title">
                 <nuxt-link to="/15/I_Wanna">I Wanna</nuxt-link>
+                <nuxt-link to="/15/LAMIA">LAMIA</nuxt-link>
                 <nuxt-link to="/15/Scythe_of_Death">Scythe of Death</nuxt-link>
             </div>
 

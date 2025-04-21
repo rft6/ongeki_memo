@@ -5,14 +5,14 @@
     <div class="image-container">
       <div class="image-wrapper">
         <p class="image-title">元譜面</p>
-        <div class="image-box">
-          <img :src="imageSrc1" alt="元譜面" class="image" />
+        <div class="image-box1">
+          <img :src="imageSrc1" alt="元譜面" class="image1" />
         </div>
       </div>
       <div class="image-wrapper">
         <p class="image-title">組み替え後</p>
-        <div class="image-box">
-          <img :src="imageSrc2" alt="組み替え後" class="image" />
+        <div class="image-box2">
+          <img :src="imageSrc2" alt="組み替え後" class="image2" />
         </div>
       </div>
     </div>
@@ -66,11 +66,12 @@ const imageSrc2 = computed(() => normalizePath(props.image2));
 .image-container {
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 50px;
   width: 100%;
 }
 
 .image-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -82,8 +83,9 @@ const imageSrc2 = computed(() => normalizePath(props.image2));
   margin-bottom: 5px;
 }
 
-.image-box {
-  width: 650px;
+.image-box1 {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -92,8 +94,25 @@ const imageSrc2 = computed(() => normalizePath(props.image2));
   background-color: #f9f9f9;
 }
 
-.image {
+.image-box2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.image1 {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image2 {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 </style>
