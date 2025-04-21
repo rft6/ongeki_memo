@@ -6,9 +6,9 @@ WORKDIR /app
 
 RUN apk --update add --no-cache bash git 
 
-COPY ./app /app
-
 RUN npm update
+
+COPY ./app /app
 
 RUN npm install
 
