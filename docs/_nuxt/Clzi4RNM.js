@@ -1,3 +1,3 @@
-import{_}from"./D0A92nwV.js";import{_ as t}from"./DlAUqK2U.js";import{c as o,a as r,b as n,o as m}from"./BrPy-9lM.js";const s={};function c(i,a){const e=_;return m(),o("div",null,[a[0]||(a[0]=r("h3",null,"I Wanna [MASTER 15]",-1)),n(e,{title:"5小節目",comment:`赤青と緑の交互\r
+import{_}from"./CVLXJZNR.js";import{_ as t}from"./DlAUqK2U.js";import{c as o,a as r,b as n,o as m}from"./ChQ8teyd.js";const s={};function c(i,a){const e=_;return m(),o("div",null,[a[0]||(a[0]=r("h3",null,"I Wanna [MASTER 15]",-1)),n(e,{title:"5小節目",comment:`赤青と緑の交互\r
             最後の緑同時だけ気を付ける`,image1:"/images/15/I_Wanna/I_Wanna_005_before.webp",image2:"/images/15/I_Wanna/I_Wanna_005_after.webp"}),n(e,{title:"87小節目",comment:`赤青と緑の交互\r
             緑で終わってから赤の同時`,image1:"/images/15/I_Wanna/I_Wanna_087_before.webp",image2:"/images/15/I_Wanna/I_Wanna_087_after.webp"})])}const I=t(s,[["render",c]]);export{I as default};
